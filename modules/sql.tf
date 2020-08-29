@@ -2,7 +2,7 @@ resource "google_sql_database_instance" "mysql" {
     name             = "mysql-prod"
     database_version = "MYSQL_5_7"
 
-    root_password = "redhat.1234"
+    root_password = "password"
 
     region = "us-east1"
 
